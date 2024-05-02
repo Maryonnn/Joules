@@ -9,7 +9,7 @@ import { FaInstagramSquare } from "react-icons/fa";
 function Footer(){
     return(
         <>
-            <Navbar bg="dark" data-bs-theme="dark" className="footer-nav">
+            <Navbar fixed="sticky" bg="dark" data-bs-theme="dark" className="footer-nav">
                 <Container>
                     <p className="text-white">
                         <span className="fw-bold">ADDRESS</span><br/><br/>

@@ -2,6 +2,7 @@
 /*Login page*/
  .login-button{
     background-color: #741B47 !important;
+    border-color: #741B47 !important;
  }
 
  .login-button:hover{
@@ -19,7 +20,7 @@
 
  .navbar{
    height: 70px;
-   background-color: #C17BA0 !important;
+   background-color: #212529 !important;
  }
 
 
@@ -78,3 +79,45 @@
 .menu-card{
    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
 }
+
+/*Reviews*/
+
+.card-pink{
+   background-color: #C17BA0 !important;
+}
+
+.card-black{
+   background-color: #212529  !important;
+}
+
+
+/*Cart*/
+.edit-button{
+   background-color: #C17BA0 !important;
+   border-color: #C17BA0 !important;
+}
+
+
+.nav-link {
+   text-decoration: none;
+   transition: text-decoration 0.3s ease;
+}
+
+.nav-link:hover {
+   text-decoration: underline;
+}
+
+.navbar-toggler {
+   background-color: white !important;
+}
+
+@media (max-width: 576px) {
+   .d-flex.flex-wrap {
+       flex-direction: column;
+   }
+
+   .d-flex.justify-content-evenly {
+       justify-content: center;
+   }
+}
+
